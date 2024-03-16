@@ -6,7 +6,7 @@ export const FeaturedProperties = () => {
 
   return (
       <div className="fplist">
-          {loading ?( "Please hold on...") : (<>
+          {loading ?( "Пожалуйста, подождите...") : (<>
               {data.map(item => (
                   <div className="fpItem" key={item?._id}>
                   <img src={item?.photos[0]} alt="" className='fpImg' />
@@ -15,7 +15,7 @@ export const FeaturedProperties = () => {
                   <span className='fpPrice'>{item?.lowPrice}</span>
                   {item?.rating && <div className='fpRating'>
                           <button>{item?.rating}</button>
-                      <span>Excellent</span>
+                      <span>Замечательно</span>
                   </div>}
               </div>
               ))}
