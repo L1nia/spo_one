@@ -11,7 +11,7 @@ export const Properties = () => {
     ]; 
     return (
       <div className="propertiesList">
-            {loading ? ("Please hold on...") : ( <> {data && images.map((img, i) => (
+            {loading ? ("Пожалуйста, подождите...") : ( <> {data && images.map((img, i) => (
               <div className="propertyItem" key={i}>
               <img src={img} alt="" className="propertyImg"/>
               <div className="propertyTitles">
