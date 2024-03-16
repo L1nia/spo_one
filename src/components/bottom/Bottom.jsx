@@ -4,12 +4,12 @@ export const Bottom = () => {
   return (
       <div className='bottom'>
           <h1 className="bottomTile">
-              Enjoy Africa's Freshness
+              HOTEL-BOOKING
           </h1>
-          <span className='bottomDesc'>Register for your visit today and enjoy amzing discounts</span>
+          <span className='bottomDesc'>Зарегистрируйтесь сегодня и получите потрясающие скидки</span>
           <div className="bottomInputContainer">
-              <input className='bottomInput' type="text" placeholder='Enter your email' />
-              <button>Join Today</button>
+              <input className='bottomInput' type="text" placeholder='Введите вашу почту' />
+              <button>Присоединяйся прямо сейчас</button>
         </div>
       </div>
   )
