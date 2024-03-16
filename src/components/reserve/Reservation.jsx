@@ -70,7 +70,7 @@ export const Reserve = ({ setOpenPage, hotelId }) => {
             <div className="reservationInfo">
               <div className="title">{item.title}</div>
               <div className="description">{item.roomDescription}</div>
-              <div className="maximumPeople">Maximum People: <b>{item.maxPeople}</b></div>
+              <div className="maximumPeople">Максимум человек: <b>{item.maxPeople}</b></div>
               <div className="price"><b>{item.price}</b></div>
 
             </div>
@@ -85,7 +85,7 @@ export const Reserve = ({ setOpenPage, hotelId }) => {
             </div>    
           </div>
         ))}
-        <button onClick={handleClick} className='reservationBtn'>Make Reservation</button>
+        <button onClick={handleClick} className='reservationBtn'>Забронировать</button>
       </div>
     </div>
   )
