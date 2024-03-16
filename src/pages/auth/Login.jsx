@@ -35,14 +35,14 @@ export const Login = () => {
       <div className="loginContainer">
         <input
           type="text"
-          placeholder="Username"
+          placeholder="Имя пользователя"
           id="username"
           onChange={handleChange}
           className="loginInput"
         ></input>
         <input
           type="password"
-          placeholder="Password"
+          placeholder="Пароль"
           id="password"
           onChange={handleChange}
           className="loginInput"
