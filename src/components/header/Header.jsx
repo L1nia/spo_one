@@ -81,15 +81,15 @@ export const Header = ({ type }) => {
           </div>
           <div className="headerListItem">
             <FontAwesomeIcon icon={faTaxi} />
-            <span>Airport taxis</span>
+            <span>Такси</span>
           </div>
         </div>
         {type !== "list" && (
           <>
-            <h1 className="headerTitle">Enjoy Africa... </h1>
+            <h1 className="headerTitle">Hotel Booking </h1>
             <p className="headerDesc">
-              Experience Africa's green, nice, fresh environment. Create a free
-              account to unlock huge discounts
+              Насладитесь зеленой, красивой и свежей средой. Создайте бесплатную
+                 учетную запись, чтобы разблокировать огромные скидки
             </p>
             {!user && <button className="headerBtn">Sign in / Register</button>}
             <div className="headerSearch">
@@ -97,7 +97,7 @@ export const Header = ({ type }) => {
                 <FontAwesomeIcon icon={faSearch} className="searchIcon" />
                 <input
                   type="text"
-                  placeholder="Where would you like to experience?"
+                  placeholder="Где бы вы хотели отдохнуть?"
                   className="headerSearchInput"
                   onChange={(e) => setDestination(e.target.value)}
                 />
@@ -132,7 +132,7 @@ export const Header = ({ type }) => {
                 {bookingOptions && (
                   <div className="bookings">
                     <div className="bookingItem">
-                      <span className="bookingText">Adult</span>
+                      <span className="bookingText">Взрослые</span>
                       <div className="bookingCounter">
                         <button
                           disabled={bookings.adult <= 1}
@@ -153,7 +153,7 @@ export const Header = ({ type }) => {
                       </div>
                     </div>
                     <div className="bookingItem">
-                      <span className="bookingText">Children</span>
+                      <span className="bookingText">Дети</span>
                       <div className="bookingCounter">
                         <button
                           disabled={bookings.children <= 0}
@@ -174,7 +174,7 @@ export const Header = ({ type }) => {
                       </div>
                     </div>
                     <div className="bookingItem">
-                      <span className="bookingText">Room</span>
+                      <span className="bookingText">Комната</span>
                       <div className="bookingCounter">
                         <button
                           disabled={bookings.room <= 1}
@@ -199,7 +199,7 @@ export const Header = ({ type }) => {
               </div>
               <div className="headerSearchItem">
                 <button className="searchBtn" onClick={handleSearch}>
-                  Search
+                  Поиск
                 </button>
               </div>
             </div>
