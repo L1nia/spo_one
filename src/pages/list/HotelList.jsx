@@ -34,13 +34,13 @@ export const Hotels = () => {
       <div className="listContainer">
         <div className="listWrapper">
           <div className="listSearch">
-            <h1 className="lTitle">Search</h1>
+            <h1 className="lTitle">Поиск</h1>
             <div className="lItem">
-              <label htmlFor="">Destination</label>
+              <label htmlFor="">Расстояние</label>
               <input placeholder={destination} type="text" />
             </div>
             <div className="lItem">
-              <label htmlFor="">Check in Date</label>
+              <label htmlFor="">Выберите дату</label>
               <span onClick={() => setOpenDate(!openDate)}>{`${format(
                 dates[0].startDate,
                 "MM/dd/yyyy"
@@ -58,7 +58,7 @@ export const Hotels = () => {
               <div className="lOptions">
                 <div className="lOptionItem">
                   <span className="lOptionText">
-                    Min Price <small>per 24hrs</small>
+                    Мин. Цена<small>за 24 часа</small>
                   </span>
                   <input
                     type="number"
@@ -68,7 +68,7 @@ export const Hotels = () => {
                 </div>
                 <div className="lOptionItem">
                   <span className="lOptionText">
-                    Max Price <small>per 24hrs</small>
+                    Макс.цена <small>за 24 часа</small>
                   </span>
                   <input
                     type="number"
@@ -77,7 +77,7 @@ export const Hotels = () => {
                   />
                 </div>
                 <div className="lOptionItem">
-                  <span className="lOptionText">Adult</span>
+                  <span className="lOptionText">Взрослые</span>
                   <input
                     type="number"
                     min={1}
@@ -86,7 +86,7 @@ export const Hotels = () => {
                   />
                 </div>
                 <div className="lOptionItem">
-                  <span className="lOptionText">Children</span>
+                  <span className="lOptionText">Дети</span>
                   <input
                     type="number"
                     min={0}
@@ -95,7 +95,7 @@ export const Hotels = () => {
                   />
                 </div>
                 <div className="lOptionItem">
-                  <span className="lOptionText">Room</span>
+                  <span className="lOptionText">Кол-во комнат</span>
                   <input
                     type="number"
                     min={1}
@@ -105,12 +105,12 @@ export const Hotels = () => {
                 </div>
               </div>
             </div>
-            <button onClick={handleClick}> Search</button>
+            <button onClick={handleClick}> Поиск</button>
           </div>
 
           <div className="listResult">
             {loading ? (
-              "Please hold on..."
+              "Пожалуйста, подождите..."
             ) : (
               <>
                 {data.map((item) => (
