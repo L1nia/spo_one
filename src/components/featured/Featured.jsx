@@ -5,7 +5,7 @@ export const Featured = () => {
     const { data, loading, error } = useFetch("http://localhost:8000/api/hotels/countByCity?cities=Abuja,Bauchi,Enugu")
     return (
       <div className="featured">
-         { loading ? ("Please hold on...") : (<> <div className="featuredItem">
+         { loading ? ("Пожалуйста, подождите...") : (<> <div className="featuredItem">
               <img src="https://i0.wp.com/lifeinarewa.com.ng/wp-content/uploads/2020/05/img_20200519_0557038759846151438564025.jpg?w=640" alt="featuredImage" className='featuredImg'/>
               <div className="featuredTitles">
                   <h1>Bauchi</h1>
