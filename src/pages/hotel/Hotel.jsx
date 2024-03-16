@@ -71,7 +71,7 @@ const Hotel = () => {
       <Navbar />
       <Header type="list" />
       {loading ? (
-        "Please hold on..."
+        "Пожалуйста, подождите..."
       ) : (
         <div className="hotelContainer">
           {open && (
@@ -101,19 +101,19 @@ const Hotel = () => {
             </div>
           )}
           <div className="hotelWrapper">
-            <button className="bookNow">Book a Space</button>
+            <button className="bookNow">Забронируйте место</button>
             <h1 className="hotelTitle">{data.name}</h1>
             <div className="hotelAddress">
               <FontAwesomeIcon icon={faLocationDot} />
               <span>{data.address}</span>
             </div>
             <span className="hotelDistance">
-              Just 2km away from Train Station
+              В 2-х километрах от станции поезда
             </span>
 
             <span className="hotelPriceDiscount">
-              Book for a stay from {data.lowCost} at {data.name} and get first
-              day stay meal for free
+              Забронируйте место здесь по цене {data.lowCost} в {data.name} и получи возможность оставаться 
+              здесь один день бесплатно
             </span>
 
             <div className="hotelImages">
@@ -134,13 +134,13 @@ const Hotel = () => {
                 <p className="hotelDesc">{data.description}</p>
               </div>
               <div className="hotelDetailPrice">
-                <h1>{days} days of amazing experience</h1>
-                <span>Transcrop Hilton located in the heart of Crossriver</span>
+                <h1>{days} дней замечательного опыта</h1>
+                <span>Transcorp Hilton расположен в самом сердце Кросс-Ривер.</span>
                 <h2>
                   <b>NGN{days * data.lowCost * bookings.room}</b> ({days}{" "}
                   nights)
                 </h2>
-                <button onClick={handleClick}>Book Now</button>
+                <button onClick={handleClick}>Бронируй прямо сейчас</button>
               </div>
             </div>
           </div>
