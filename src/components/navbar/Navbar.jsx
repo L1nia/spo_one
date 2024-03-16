@@ -10,15 +10,15 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="navContainer">
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
-          <span className="logo">Chillax Africa</span>
+          <span className="logo">Hotel-Booking</span>
         </Link>
         {user ? (
           `Welcome ${user.username}`
         ) : (
           <div className="navItems">
-            <button className="navButton">Login</button>
+            <button className="navButton">Логин</button>
 
-            <button className="navButton">Register</button>
+            <button className="navButton">Регистрация</button>
           </div>
         )}
       </div>
