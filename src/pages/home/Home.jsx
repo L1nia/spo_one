@@ -13,7 +13,7 @@ export const Home = () => {
       <Header />
       <div className="homeContainer">
         <Featured />
-        <h1 className="homeTitle">See available property type</h1>
+        <h1 className="homeTitle">Посмотреть доступный тип номеров</h1>
         <Properties/>
         <FeaturedProperties />
         <Bottom />
