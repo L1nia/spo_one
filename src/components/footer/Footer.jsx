@@ -5,52 +5,47 @@ export const Footer = () => {
       <div className="footer">
       <div className='fLists'>
           <ul className="fList">
-            <li className="fListItem">Countries</li>
-            <li className="fListItem">States</li>
-            <li className="fListItem">Cities</li>
-            <li className="fListItem">Local</li>
-            <li className="fListItem">Airports</li>
-            <li className="fListItem">Resorts</li>
-            <li className="fListItem">Hotels</li> 
+            <li className="fListItem">Страны</li>
+            <li className="fListItem">Города</li>
+            <li className="fListItem">Районы</li>
+            <li className="fListItem">Аэропорты</li>
+            <li className="fListItem">Курорты</li>
+            <li className="fListItem">Отели</li> 
                 </ul>
                 <ul className="fList">
-            <li className="fListItem">Countries</li>
-            <li className="fListItem">States</li>
-            <li className="fListItem">Cities</li>
-            <li className="fListItem">Local</li>
-            <li className="fListItem">Airports</li>
-            <li className="fListItem">Resorts</li>
-            <li className="fListItem">Hotels</li> 
+            <li className="fListItem">Страны</li>
+            <li className="fListItem">Города</li>
+            <li className="fListItem">Районы</li>
+            <li className="fListItem">Аэропорты</li>
+            <li className="fListItem">Курорты</li>
+            <li className="fListItem">Отели</li> 
                 </ul>
                 <ul className="fList">
-            <li className="fListItem">Countries</li>
-            <li className="fListItem">States</li>
-            <li className="fListItem">Cities</li>
-            <li className="fListItem">Local</li>
-            <li className="fListItem">Airports</li>
-            <li className="fListItem">Resorts</li>
-            <li className="fListItem">Hotels</li> 
+            <li className="fListItem">Страны</li>
+            <li className="fListItem">Города</li>
+            <li className="fListItem">Районы</li>
+            <li className="fListItem">Аэропорты</li>
+            <li className="fListItem">Курорты</li>
+            <li className="fListItem">Отели</li> 
                 </ul>
                 <ul className="fList">
-            <li className="fListItem">Countries</li>
-            <li className="fListItem">States</li>
-            <li className="fListItem">Cities</li>
-            <li className="fListItem">Local</li>
-            <li className="fListItem">Airports</li>
-            <li className="fListItem">Resorts</li>
-            <li className="fListItem">Hotels</li> 
+            <li className="fListItem">Страны</li>
+            <li className="fListItem">Города</li>
+            <li className="fListItem">Районы</li>
+            <li className="fListItem">Аэропорты</li>
+            <li className="fListItem">Курорты</li>
+            <li className="fListItem">Отели</li> 
                 </ul>
                 <ul className="fList">
-            <li className="fListItem">Countries</li>
-            <li className="fListItem">States</li>
-            <li className="fListItem">Cities</li>
-            <li className="fListItem">Local</li>
-            <li className="fListItem">Airports</li>
-            <li className="fListItem">Resorts</li>
-            <li className="fListItem">Hotels</li> 
+            <li className="fListItem">Страны</li>
+            <li className="fListItem">Города</li>
+            <li className="fListItem">Районы</li>
+            <li className="fListItem">Аэропорты</li>
+            <li className="fListItem">Курорты</li>
+            <li className="fListItem">Отели</li> 
           </ul>
             </div>
-            <div className="fText">Copyright (c) 2022 Chillax Africa</div>
+            <div className="fText">Hotel-Booking</div>
       </div>
             
   )
